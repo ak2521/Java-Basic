@@ -1,0 +1,15 @@
+import java.lang.*;
+public class Kata {
+  public static boolean solution(String str, String ending) {
+    int count=0;
+    int strlen=str.length();
+    int endinglen=ending.length();
+    int start=Math.abs(strlen-endinglen);
+    String strending=str.substring(start,strlen);
+    if(strending.equals(ending))
+      {
+        return true;
+      }
+    return false;
+  }
+}
