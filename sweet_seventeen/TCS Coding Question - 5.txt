@@ -1,0 +1,12 @@
+TCS Coding Question - 5
+
+SWEET SEVENTEEN:Given a maximum of four digit to the base 17 (10 - A, 11 - B, 12 - C, 13 - D .... 16 - G} as input, output its decimal value.
+Case 1:
+Input - 1A
+Expected Output - 27
+
+Explantion : The value A will be multiplied by 17^0 and value 1 will be multiplied by 17^1.
+=> ((1*17^1) + (A*17^0))
+=> ((1*17^1) + (10*17^0)) //As A equals 10
+=> 17 + 10 => 27
+So the output will be 27 
