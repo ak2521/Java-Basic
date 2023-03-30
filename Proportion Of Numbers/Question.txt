@@ -1,0 +1,21 @@
+Input: [2,1,0,-8,-9]
+
+Output: 0.4 , 0.2 , 0.4
+
+Explanation:
+First, find the total number of elements in the array = 5
+Find the total number of positive numbers=2
+Find the total number of neutral numbers=1
+(0 is the only neutral number)
+Find the total number of negative numbers=2
+Output = [ (no of positive number/length of the array), (no of neutral numbers/length of the array), (no of negative numbers/length of the array) ]
+=[⅖, ⅕, ⅖]
+=[0.4, 0.2, 0.4]
+
+Algorithm:
+Start the Program
+Get the input as an array
+Find the length of the array
+Find the number of positive, neutral, and negative numbers
+Divide each one of the above results with the length of the array and print the output as an array( Make sure you print the output in float format and use 0.1f for one precision)
+Stop the program
